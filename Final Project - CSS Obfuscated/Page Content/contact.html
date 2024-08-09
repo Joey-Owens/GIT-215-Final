@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Greenwater Mountain Resort | Contact</title>
+        <meta name="author" content="Joseph Owens">
+        <meta name="description" content="Contact Us at GreenWater Mountain Resort. Greenwater Mountain Resort is a luxurious place to spend you're well deserved vacation resting and immersed in beautiful mountains. ">
+
+        <!--CSS Stylesheet Link-->
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Cinzel:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Seymour+One&display=swap" rel="stylesheet">
+        
+        <!--Fav Icon Code>-->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <body>
+        <header>
+            <h1><a href="index.html">GREENWATER&nbsp; MOUNTAIN&nbsp; RESORT</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ACCOMMODATIONS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="a large forest-filled valley with snowcapped mountains in the distance and a river winding through the middle of the woods">
+        </header>
+        <main>
+            <section id="section1">
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                <p>&nbsp;&nbsp;&nbsp;Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br> Required fields marked with a *</p>
+            </section>
+            <img id="contactimg" src="images/swiss-sunset.jpg" alt="a setting sun over a thick green forest with houses beside a lake in the foreground and mountains in the background">
+            <div id="parent">
+                <form class="child" action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="my-name">Full Name*</label>
+                    <input type="text" id="my-name" name="my-name" required>
+
+                    <label for="my-email">Email Address*</label>
+                    <input type="email" id="my-email" name="my-email" required>
+
+                    <label for="my-phone">Phone Number*</label>
+                    <input type="tel" id="my-phone" name="my-phone" required>
+                </form>
+                <form class="child" action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <fieldset>
+                        <legend>Preferred Contact Method*</legend>
+                        <input type="radio" id="pref-email" name="contact-pref" value="email" required checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" id="pref-phone" name="contact-pref" value="phone" required>
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>    
+                
+                    <label for="my-comments">Comments*</label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+
+                    <input type="submit" id="my-submit" name="my-submit" class="button">       
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright ©2023<br>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
